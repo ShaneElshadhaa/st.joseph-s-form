@@ -10,11 +10,12 @@
 <body>
     <form>
         <h1>St.joseph's recruitment</h1>
+        <br>
         <label for="Name">Name :</label>
         <input type="text" id="name"  name="Name" placeholder="inset your name">
         <br> <br>
         <label for="Age">Age :</label>
-        <input type="number" id="Age" name="Age" placeholder="age in number">
+        <input type="number" min="25" max="30" id="Age" name="Age" >
         <br><br>
         <label for="Date">Date of birth :</label>
         <input type="date" id="Date" name="Date">
@@ -30,13 +31,43 @@
         <input type="tel" name="Tel" id="Tel" placeholder="+91 0123456789" >
         <br><br>
         <label for="School">Previous School :</label>
-        <textarea cols="" rows="" placeholder="school with address" ></textarea>
+        <textarea cols="" rows="" placeholder="school with address"  required!></textarea>
         <br><br>
         <label for="Exprence">Years of Exprence :</label>
         <input type="radio" name="Exprence" id="Exprence">1</input>
         <input type="radio" name="Exprence" id="Exprence">2</input>
         <input type="radio" name="Exprence" id="Exprence">3</input>
+        <input type="radio" name="Exprence" id="Exprence">4</input>
+        <input type="radio" name="Exprence" id="Exprence">5</input>
         <br></br>
+        <label for="Major">Major :</label>
+        <select name="Major" id="Major">
+            <option value="null"></option>
+            <option value="Maths">Maths</option>
+            <option value="Physics">Physics</option>
+            <option value="Chemistry">Chemistry</option>
+            <option value="Botney">Botney</option>
+            <option value="Zoolagy">Zoolagy</option>
+        </select>
+        <br><br>
+        <label for="Qualification">Qualification :</label>
+        <select name="Qualification" id="Qualification">
+            <option value=""></option>
+            <option value="M.sc, B.ed">M.sc, B.ed</option>
+            <option value="M.sc, M.ed">M.sc, M.ed</option>
+            <option value="M.sc, B.ed, M.phil">M.sc, B.ed, M.phil</option>
+            <option value="M.sc, M.ed, M.phil">M.sc, M.ed, M.phil</option>
+            <option value="M.sc, B.ed, PHD">M.sc, B.ed, PHD</option>
+            <option value="M.sc, M.ed, PHD">M.sc, M.ed, PHD</option>
+
+        </select>
+        <br><br>
+        <button  >Submit</button>
+        <br><br>
+        <div id="Reset">
+            <button  type="reset">Reset</button>
+        </div>
+        
         
     </form>
     

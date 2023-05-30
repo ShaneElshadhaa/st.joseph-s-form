@@ -15,3 +15,12 @@ h1{
     color: rgb(245, 4, 109);
     text-align: center;
 }
+button{
+    margin-left: 120px;
+    justify-content: center;
+}
+div{
+                
+    padding-left: 5px;
+    
+} 
