@@ -39,4 +39,31 @@ button{
 }
 .content{
     padding: 20px;
+    
+}
+
+
+
+.link{
+    height: 5rem;
+    
+    
+    background-image: linear-gradient(30deg, white, red);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* text-decoration: none; - reduce excess of image */
+.link a{
+    padding-left: 10px;
+    
+    text-decoration: none;
+    color: gray;
+    font-size: 2.5rem;
+    
+    
 }
